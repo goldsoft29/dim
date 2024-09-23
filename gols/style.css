@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.red{
+    background-color: red;
+    padding: 20px;
+}
+.green{
+    background-color: green;
+    padding: 20px;
+}
+.yellow{
+    background-color: rgb(127, 55, 191);
+    padding: 20pxZAXSCDFVG;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 200px 40vh;
+    justify-content:space-around;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 70px;
+}

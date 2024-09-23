@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+}
+section{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .ball{
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 100%;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: s;
+    transition-delay: 1s;
+}
+.ball:hover{
+    background-color: blue;
+    padding: 500px;
+} */
+.ball{
+    background-color: greenyellow;
+    padding: 30px;
+    width: 50px;
+    border-radius: 100%;
+    animation: bounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+    /* from{
+        transform: translate(0px, 0px);
+    }to{
+        transform: translate(0px, -150px);
+    } */
+0%{
+    transform: translateY(0px);
+}
+50%{
+    transform: translateY(-150px);
+}
+100%{
+    transform: translateY(0px);
+    width: 65px;
+    padding: 15px;
+}

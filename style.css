@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.mn{
+    color: green;
+}
+.gm{
+    color: green;
+    font-size: 30px;
+}
+.gb{
+    color: black;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.li{
+    font-size: 20px;
+}
+.ib{
+    color: black;
+}
+.rt{
+    color: black;
+}
+.tr{
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    
+}
+.tm{
+    color: black;
+}
+section {
+    display: flex;
+}
